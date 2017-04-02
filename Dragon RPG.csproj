@@ -81,8 +81,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\8-CM-RPG-Using-Raycasts-To-Query-Click\CameraRaycaster.cs" />
     <Compile Include="Assets\MouseMovement.cs" />
     <Compile Include="Assets\_Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\_Scripts\Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

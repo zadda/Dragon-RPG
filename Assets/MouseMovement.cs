@@ -19,7 +19,10 @@ public class MouseMovement : MonoBehaviour
 	void Update () 
 	{
 
+        cursor = Input.mousePosition;
 
+        Debug.Log("Player positie: " + player.transform.position);
+        Debug.Log("Cursor positie: " + cursor.ToString());
 
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -31,7 +34,8 @@ public class MouseMovement : MonoBehaviour
 
     void OnMuisKlik()
     {
-        player.transform.position = cursor;
+        //player.transform.position = cursor;
+        player.transform.position = new Vector3(cursor.x/(-169), 0, 0);
     }
 
 }
